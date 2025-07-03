@@ -1,0 +1,26 @@
+{
+  "name": "claude-code-keepalive",
+  "version": "0.0.1",
+  "description": "Maximize your Claude usage! `claude-code-keepalive` automatically refreshes your session, guaranteeing you maximize every 5-hour usage window.",
+  "main": "index.js",
+  "scripts": {
+    "test": "claude-code-keepalive test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iia-hannah/claude-code-keepalive.git"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "token",
+    "session",
+    "ping"
+  ],
+  "author": "iia-hannah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iia-hannah/claude-code-keepalive/issues"
+  },
+  "homepage": "https://github.com/iia-hannah/claude-code-keepalive#readme"
+}
