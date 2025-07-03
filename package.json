@@ -1,13 +1,14 @@
 {
   "name": "claude-code-keepalive",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Maximize your Claude usage! `claude-code-keepalive` automatically refreshes your session, guaranteeing you maximize every 5-hour usage window.",
   "main": "lib/index.js",
   "bin": {
     "claude-code-keepalive": "./bin/claude-code-keepalive.js"
   },
   "scripts": {
-    "test": "claude-code-keepalive test"
+    "test": "claude-code-keepalive test",
+    "prepublishOnly": "npm run test"
   },
   "repository": {
     "type": "git",
