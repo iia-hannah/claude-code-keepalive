@@ -14,21 +14,17 @@ This is a smart automation tool that perfectly aligns Claude's 5-hour sessions w
 - 2:00 PM: Wait until token reset, then resume session
 
 ### ✅ `claude-code-keepalive` Solution
-- 7:00 AM: Session automatically started **(claude-code-keepalive)**
+- 7:00 AM: Session automatically started **(⭐claude-code-keepalive)**
 - 9:00 AM: Work begins
 - 12:00 PM: All usage quota exhausted
-- 12:00 PM: Session automatically started **(claude-code-keepalive)**
+- 12:00 PM: Session automatically started **(⭐claude-code-keepalive)**
 - 1:00 PM: 🍽️😋 After lunch, afternoon work begins with fresh token allocation
 
 ## Installation
 
 ### Prerequisites
-- **Node.js 18.0.0 or higher**
-- **Claude Code CLI installed and authenticated**
-  ```bash
-  npm install -g @anthropic-ai/claude-code
-  claude auth
-  ```
+- Node.js 18.0.0 or higher
+- [Claude Code CLI installed and authenticated](https://docs.anthropic.com/en/docs/claude-code/overview)
 
 ### Quick Start
 ```bash
@@ -138,11 +134,6 @@ Logs are stored in:
 **Claude CLI not found**
 ```bash
 npm install -g @anthropic-ai/claude-code
-```
-
-**Authentication Issues**
-```bash
-claude auth
 ```
 
 **Process Not Starting**
