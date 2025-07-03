@@ -2,7 +2,10 @@
   "name": "claude-code-keepalive",
   "version": "0.0.1",
   "description": "Maximize your Claude usage! `claude-code-keepalive` automatically refreshes your session, guaranteeing you maximize every 5-hour usage window.",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "bin": {
+    "claude-code-keepalive": "./bin/claude-code-keepalive.js"
+  },
   "scripts": {
     "test": "claude-code-keepalive test"
   },
@@ -15,12 +18,24 @@
     "claude-code",
     "token",
     "session",
-    "ping"
+    "ping",
+    "automation",
+    "keepalive"
   ],
   "author": "iia-hannah",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/iia-hannah/claude-code-keepalive/issues"
   },
-  "homepage": "https://github.com/iia-hannah/claude-code-keepalive#readme"
+  "homepage": "https://github.com/iia-hannah/claude-code-keepalive#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "chalk": "^4.1.2",
+    "inquirer": "^8.2.6",
+    "fs-extra": "^11.1.1",
+    "cron": "^3.1.6"
+  }
 }

@@ -1,0 +1,33 @@
+# Development files
+.taskmaster/
+.claude/
+.mcp.json
+CLAUDE.md
+
+# Development and testing
+*.test.js
+test/
+tests/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
