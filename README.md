@@ -104,7 +104,7 @@ Configuration is stored in `~/.claude-code-keepalive/config.json` and can be mod
   "timeout": 30000,
   "burstCount": 3,
   "burstInterval": 2,
-  "question": "What time is it now?",
+  "question": "Say, Hello!",
   "logLevel": "info",
   "autoRestart": true,
   "timezone": "America/New_York",
